@@ -45,7 +45,7 @@ programa
 			escreva("Você está com sintomas fortes de Covid-19, e possivelmente está com o virus")
 		}
 
-		se (grau < 4) {
+		se (grau < 4 e grau > 0) {
 			escreva("Você está com sintomas fracos de Covid-19, e talvez esteja com o virus")
 		}
 
@@ -61,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3; 
+ * @POSICAO-CURSOR = 814; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
